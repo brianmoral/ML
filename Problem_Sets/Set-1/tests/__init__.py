@@ -45,7 +45,7 @@ class Tester(object):
 def testKNN(knnclass):
     tester = Tester()
     features = np.array([[1, 3], [1, 7], [2, 6], [3.5, 5], [4, 1], [5, 3.5], [6, 6], [7, 2], [8, 3], [8, 5]])
-    labels = np.array([1, -1, 1, 1, 1, 1, -1, -1, 1, -1, -1])
+    labels = np.array([1, -1, 1, 1, 1, 1, -1, -1, 1, -1])
     test_points = np.array([[1, 1.1], [2, 3], [8, 6], [7, 7], [9, 2]])
     test_labels = np.array([1, 1, -1, -1, -1])
     confusion = np.array([[2., 1.], [1., 1.]])
